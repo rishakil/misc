@@ -7,7 +7,7 @@ using namespace std;
 #define all(x) x.begin(), x.end()
 #define cin(line) scanf(" %[^\n]%*c", line)
 #define sf(x, y) fixed << setprecision(x) << y
-#define fio ios_base::sync_with_stdio(0); cin.tie(0), cout.tie(0)
+#define FIO ios_base::sync_with_stdio(0); cin.tie(0), cout.tie(0)
 #define TxtIO   freopen("input.txt","r",stdin); freopen("output.txt","w",stdout);
 
 ll _llsqrt(ll a) { ll x = sqrt(a) + 2; while (x * x > a) x--; return x; }
