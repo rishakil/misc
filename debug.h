@@ -5,11 +5,11 @@
 #define endl '\n'
 #define pb push_back
 #define print(array) { for (auto x : array) cout << x << gap; cout << endl; }
-//#define _4_
-#ifdef _4_
+//#define _42_
+#ifdef _42_
 #include "algo/debug.h"
 #else
-#define check(...) 42
+#define dbg(...) 42
 #endif
 
 */
